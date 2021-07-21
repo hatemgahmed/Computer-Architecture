@@ -1,0 +1,14 @@
+addi $t1 -10
+addi $t0 -10
+addi $t3 9
+add $s0 $s0 $zero
+add $s0 $s0 $zero
+add $s0 $s0 $zero
+beq $t3 $t1 $t0
+addi $s0 7
+add $t1 $t1 $zero
+add $t1 $t1 $zero
+add $t1 $t1 $zero
+jal 1
+addi $s1 21
+add $t1 $t1 $zero
